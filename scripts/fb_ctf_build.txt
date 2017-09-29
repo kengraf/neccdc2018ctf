@@ -1,0 +1,72 @@
+fbctf
+UBUNTU 14.04  t2.medium  CyberSkill-SG
+keypair named fb-ctf
+-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAlrhPdQHru2jJLBdZYeE2r8zreuJKBKUbm+w0wVX7DfUuVNzUY0eyA/nF5Mmx
+...
+-----END RSA PRIVATE KEY-----
+
+start fbctf instance
+
+after instance has started set route53 record A to new IP address
+
+# SSH to instance
+sudo apt-get update
+sudo apt-get upgrade
+sudo npm install -g npm
+sudo npm install -g npm
+
+sudo apt-get install git
+git clone https://github.com/facebook/fbctf
+cd fbctf
+./extra/provision.sh -m prod -s $PWD -c certbot
+
+# capture password for root
+# a313b436da0b3e0ff2d9b00d1174832f
+6a3544257b1488c8a31749869bd37d78
+
+mysql -u ctf -p fbctf < batch-file
+
+active,type,title,description,entity_id,category_id,points,bonus,bonus_dec,bonus_fix,flag,hint,penalty
+insert into levels values
+(1,'baseBritish or Argentinian?Establish ownership by putting your team name in \/tmp\/SCORE_POINTS
+ at this address: X.X.X.X','FK','None103000150Islands in the South Atlantic150)
+;
+
+# LOAD UP THE bases!
+#aws things to do
+#for each instance
+base1 54.167.229.46
+base2 54.157.204.82
+base3 54.174.192.179
+base4 52.91.74.222
+base5 54.175.2.41
+base6 54.174.108.61
+base7 52.91.177.147
+
+
+#load scoring agent from IT666 fbctf directory
+sudo /etc/rc.local
+add python /home/ec2-user/ctfAgent.py
+sudo reboot
+
+
+
+# set student ids
+# turn passwords on
+sudo sed -i 's/^PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config
+sudo /etc/init.d/sshd reload
+sudo sed -i 's/^# %wheel/%wheel/' /etc/sudoers
+
+
+sudo groupadd teams
+studentIds=( kex496 tab10 jmb2017 ajy256 rdd2000 pjd2003 jjg11 kh1 zji2001 smt736 xqe4 bmn2002 fas2001 ps14 bps2002 iw2000 ean223 jty2001 nie7 kmh722 )
+for i in "${studentIds[@]}"
+do
+   : 
+   # do whatever on $i
+   sudo adduser --gid teams --password $(echo it666password | openssl passwd -1 -stdin) $i;
+   sudo usermod -a -G wheel $i;
+done
+
+for u in $(lid -g -n teams); do usermod -a -G wheel $u; done
