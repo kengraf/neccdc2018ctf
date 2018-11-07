@@ -1,0 +1,52 @@
+{
+    "categories": [
+        {
+            "category": "Authentication",
+            "protected": false
+        },
+        {
+            "category": "Base",
+            "protected": false
+        },
+        {
+            "category": "Coding",
+            "protected": false
+        },
+        {
+            "category": "Crypto",
+            "protected": false
+        },
+        {
+            "category": "Encryption",
+            "protected": false
+        },
+        {
+            "category": "Gaming",
+            "protected": false
+        },
+        {
+            "category": "Networking",
+            "protected": false
+        },
+        {
+            "category": "None",
+            "protected": true
+        },
+        {
+            "category": "Quiz",
+            "protected": true
+        },
+        {
+            "category": "Security",
+            "protected": false
+        },
+        {
+            "category": "Steganography",
+            "protected": false
+        },
+        {
+            "category": "Trivia",
+            "protected": false
+        }
+    ]
+}

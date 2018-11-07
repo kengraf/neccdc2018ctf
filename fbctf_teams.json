@@ -1,0 +1,279 @@
+{
+    "teams": [
+        {
+            "name": "admin",
+            "active": true,
+            "admin": true,
+            "protected": true,
+            "visible": false,
+            "password_hash": "$2y$12$5RgGAnnaT9m86zKCyKA7pOQaFQMvCOGd3QU1mx..iz6eZa20zxILa",
+            "points": 0,
+            "logo": "admin",
+            "data": {}
+        },
+        {
+            "name": "Bowser",
+            "active": true,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$yzOMZVgQY3yAo5r78q4roObuIG3FN1a1wX43x9HqBZWveJp0uIV2C",
+            "points": 0,
+            "logo": "4chan-2",
+            "data": {}
+        },
+        {
+            "name": "Team GLaDOS",
+            "active": false,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$ugcZTEq2rrbCJ7gt\/8It.O0\/QpgJeRoTfL8EL4LkippEivNgMCCTu",
+            "points": 0,
+            "logo": "4chan-2",
+            "data": {}
+        },
+        {
+            "name": "Team Wario",
+            "active": false,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$XaSlUw4mB5BhCT87DnLKhuDFCAGfvnqzoLre8fJaj7ELd6u8PUx.2",
+            "points": 0,
+            "logo": "boba-fett",
+            "data": {}
+        },
+        {
+            "name": "Team Sephiroth",
+            "active": false,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$jHlkfZAPiD7LXDqPKHCrtO0vZYCho0.8qPk.2ugwDzMhP5uk8feUO",
+            "points": 0,
+            "logo": "8ball",
+            "data": {}
+        },
+        {
+            "name": "Team Ganondorf",
+            "active": false,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$YL2ghGKAZieWP.ru9EILA.tmIUqfcczPtn2rjb0W4nwM4OFGO3Z3m",
+            "points": 0,
+            "logo": "atom",
+            "data": {}
+        },
+        {
+            "name": "Team Robotnik",
+            "active": false,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$UAfJDwh5hlDmsuNfNc25reG3peCTb3QkKOAhBeRC3Y7UJQbpnCiKK",
+            "points": 0,
+            "logo": "alien-3",
+            "data": {}
+        },
+        {
+            "name": "Team Arthas",
+            "active": false,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$.edlybC6UypezaF2YJBF0O1wn6wUPduIw3FzGMj2umSEeH\/EY1Sxm",
+            "points": 0,
+            "logo": "basketball-hoop",
+            "data": {}
+        },
+        {
+            "name": "Team Zeus",
+            "active": false,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$mciB..KLyjp.xeM5hb3Ej.yzf6abzllZ3nGm9d4nNI0j4WQ1WsQXC",
+            "points": 0,
+            "logo": "alien-2",
+            "data": {}
+        },
+        {
+            "name": "Team Diablo",
+            "active": false,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$QbjNAHeaqBuhj2p2hLLGu..qeDwtv66TtYypGf5HNwsW0MZWpBRui",
+            "points": 0,
+            "logo": "barking",
+            "data": {}
+        },
+        {
+            "name": "Team Donkey Kong",
+            "active": false,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$Bb\/StAF6yt8ppaotn08cPeZtvKvjt7xRnLAvGCdPb9JYLY5OcLSQy",
+            "points": 0,
+            "logo": "bar-graph",
+            "data": {}
+        },
+        {
+            "name": "Team Kerrigan",
+            "active": false,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$H7G9Nze6t47Lz97hNh45R.g1iy29UyGmxyA2eR7kRCFyl2Fjr40aS",
+            "points": 0,
+            "logo": "alien",
+            "data": {}
+        },
+        {
+            "name": "Team Handsome Jack",
+            "active": false,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$U4bLZXEIIFvnKNp4eBcfjellupM2XNbMJHmuJnR85YPjpBgHduJM.",
+            "points": 0,
+            "logo": "b",
+            "data": {}
+        },
+        {
+            "name": "Testing Team",
+            "active": false,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$EZfx3Hf8nSNbKIttISacsOz31wCkBQezYKCRIuL1bHvzJAIiZb8GG",
+            "points": 0,
+            "logo": "4chan",
+            "data": {}
+        },
+        {
+            "name": "GLaDOS",
+            "active": true,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$ugcZTEq2rrbCJ7gt\/8It.O0\/QpgJeRoTfL8EL4LkippEivNgMCCTu",
+            "points": 0,
+            "logo": "4chan-2",
+            "data": {}
+        },
+        {
+            "name": "Wario",
+            "active": true,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$XaSlUw4mB5BhCT87DnLKhuDFCAGfvnqzoLre8fJaj7ELd6u8PUx.2",
+            "points": 0,
+            "logo": "boba-fett",
+            "data": {}
+        },
+        {
+            "name": "Sephiroth",
+            "active": true,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$jHlkfZAPiD7LXDqPKHCrtO0vZYCho0.8qPk.2ugwDzMhP5uk8feUO",
+            "points": 0,
+            "logo": "8ball",
+            "data": {}
+        },
+        {
+            "name": "Ganondorf",
+            "active": true,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$YL2ghGKAZieWP.ru9EILA.tmIUqfcczPtn2rjb0W4nwM4OFGO3Z3m",
+            "points": 0,
+            "logo": "atom",
+            "data": {}
+        },
+        {
+            "name": "Robotnik",
+            "active": true,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$UAfJDwh5hlDmsuNfNc25reG3peCTb3QkKOAhBeRC3Y7UJQbpnCiKK",
+            "points": 0,
+            "logo": "alien-3",
+            "data": {}
+        },
+        {
+            "name": "Arthas",
+            "active": true,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$.edlybC6UypezaF2YJBF0O1wn6wUPduIw3FzGMj2umSEeH\/EY1Sxm",
+            "points": 0,
+            "logo": "basketball-hoop",
+            "data": {}
+        },
+        {
+            "name": "Zeus",
+            "active": true,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$mciB..KLyjp.xeM5hb3Ej.yzf6abzllZ3nGm9d4nNI0j4WQ1WsQXC",
+            "points": 0,
+            "logo": "alien-2",
+            "data": {}
+        },
+        {
+            "name": "Diablo",
+            "active": true,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$QbjNAHeaqBuhj2p2hLLGu..qeDwtv66TtYypGf5HNwsW0MZWpBRui",
+            "points": 0,
+            "logo": "barking",
+            "data": {}
+        },
+        {
+            "name": "Donkey Kong",
+            "active": true,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$Bb\/StAF6yt8ppaotn08cPeZtvKvjt7xRnLAvGCdPb9JYLY5OcLSQy",
+            "points": 0,
+            "logo": "bar-graph",
+            "data": {}
+        },
+        {
+            "name": "Kerrigan",
+            "active": true,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$H7G9Nze6t47Lz97hNh45R.g1iy29UyGmxyA2eR7kRCFyl2Fjr40aS",
+            "points": 0,
+            "logo": "alien",
+            "data": {}
+        },
+        {
+            "name": "Handsome Jack",
+            "active": true,
+            "admin": false,
+            "protected": false,
+            "visible": true,
+            "password_hash": "$2y$12$U4bLZXEIIFvnKNp4eBcfjellupM2XNbMJHmuJnR85YPjpBgHduJM.",
+            "points": 0,
+            "logo": "b",
+            "data": {}
+        }
+    ]
+}
